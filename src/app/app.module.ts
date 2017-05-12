@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { Text2SvgComponent } from './text2-svg/text2-svg.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Text2SvgComponent
   ],
   imports: [
     BrowserModule,
